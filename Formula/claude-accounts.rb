@@ -4,8 +4,8 @@
 class ClaudeAccounts < Formula
   desc "Manage multiple Claude Code account configurations"
   homepage "https://github.com/frisble/claude-accounts"
-  url "https://github.com/frisble/claude-accounts/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "5abe616fe108be2637e4021ba3853d37403212a5c197d477db054addf6383fd2"
+  url "https://github.com/frisble/claude-accounts/archive/refs/tags/1.1.0.tar.gz"
+  sha256 "f4edb089f7ba7273618594c40ec17d906e72a4595e6bf8c4a4209b38927f2890"
   license "MIT"
   head "https://github.com/frisble/claude-accounts.git", branch: "main"
 
@@ -15,21 +15,8 @@ class ClaudeAccounts < Formula
 
   def caveats
     <<~EOS
-      To enable account aliases, add this line to your shell config:
-
-        For zsh (~/.zshrc):
-          eval "$(claude-accounts shell-init)"
-
-        For bash (~/.bashrc):
-          eval "$(claude-accounts shell-init)"
-
-      Then reload your shell:
-        source ~/.zshrc  # or source ~/.bashrc
-
       Quick start:
         claude-accounts add work      # Create 'work' account
-        claude-accounts add personal  # Create 'personal' account
-        source ~/.zshrc               # Reload shell
         claude-work                   # Launch Claude with 'work' account
 
       For more information:
