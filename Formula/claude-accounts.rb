@@ -4,8 +4,8 @@
 class ClaudeAccounts < Formula
   desc "Manage multiple Claude Code account configurations"
   homepage "https://github.com/frisble/claude-accounts"
-  url "https://github.com/frisble/claude-accounts/archive/refs/tags/1.1.0.tar.gz"
-  sha256 "ce20d063f860ea77c7666fab67ea5de8c635064a0a083bf9a3f6f858d65315a3"
+  url "https://github.com/frisble/claude-accounts/archive/refs/tags/1.1.1.tar.gz"
+  sha256 "abdea84470374bf59b3db2f9b01546fa417178dcf56364fd3dcd68ee3fd15b0b"
   license "MIT"
   head "https://github.com/frisble/claude-accounts.git", branch: "main"
 
